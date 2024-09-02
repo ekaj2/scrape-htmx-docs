@@ -1,10 +1,16 @@
-# Install deps
+# Quick start
+
+Download the .md files from the output/ folder in this repo.
+
+# Run it yourself
+
+## Install deps
 
 ```bash
 poetry install
 ```
 
-# Run
+## Run
 
 ```bash
 poetry run scrapy runspider htmx_examples.py

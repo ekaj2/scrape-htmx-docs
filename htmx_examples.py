@@ -11,10 +11,10 @@ class HtmxSpider(scrapy.Spider):
     custom_settings = {
         'FEED_EXPORTERS': {'markdown': exporters.MarkdownExporter},
         'FEED_FORMAT': 'markdown',
-        'FEED_URI': 'htmx_examples.md',
+        'FEED_URI': 'output/htmx_examples.md',
         'FEED_EXPORT_ENCODING': 'utf-8',
         'FEEDS': {
-            'htmx_examples.md': {
+            'output/htmx_examples.md': {
                 'format': 'markdown',
                 'overwrite': True
             }
